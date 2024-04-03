@@ -58,7 +58,7 @@ const OtpInput = ({ length = 4, onOtpSubmit = () => {} }) => {
             onChange={(e) => handelChange(index, e)}
             onClick={() => handelClick(index)}
             onKeyDown={(e) => handelKeyDown(index, e)}
-            className=" border border-black rounded-lg shadow-inner shadow-sm shadow-zinc-400 w-10 h-10 m-1 mt-5 text-center"
+            className=" border border-black rounded-lg shadow-inner  shadow-zinc-400 w-10 h-10 m-1 mt-5 text-center"
           />
         );
       })}
